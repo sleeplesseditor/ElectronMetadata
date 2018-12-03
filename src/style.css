@@ -1,0 +1,14 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#data {
+    color: #fff;
+}
