@@ -6,9 +6,45 @@ body {
 .title {
     text-align: center;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    background-color: rgb(63, 62, 62);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.metadata_btn {
+    border-radius: 50px;
+    margin: 10px;
+    color: #fff;
+    border: none;
+    background-color: rgb(243, 7, 7);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .6s;
+    justify-content: space-around;
+}
+
+.metadata_btn:hover {
+    background-color: rgb(5, 129, 1);
+} 
 
 #data {
     color: #fff;
+}
+
+.fileform {
+    margin: 10px;
 }

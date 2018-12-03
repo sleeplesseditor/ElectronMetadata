@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -18,7 +19,7 @@
         <h1 class="title">File Metadata Viewer</h1>
 
         <form>
-            <div>
+            <div class="fileform">
               <label for="filepicker">
                 <input 
                     id="filePicker" 
@@ -26,10 +27,11 @@
                     type="file" 
                     multiple
                 >
+                <br />
               </label>
             </div>
         
-            <button>Get Metadata</button>
+            <button class="metadata_btn">Get Metadata</button>
           </form>
         
           <hr />
